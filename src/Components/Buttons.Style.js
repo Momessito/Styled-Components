@@ -5,9 +5,12 @@ export const ButtonStyled = styled.button`
 background-color : ${(prop) => prop.ColorButton ? prop.ColorButton : 'yellow'};
 font-size : 2rem;
 padding : 10px 30px ;
-border-radius: 4px; 
+border-radius: 40px; 
 color: black;
-border : 1px solid black;
+font-weight: bold;
+box-shadow : 0px 0px 15px ${(prop) => prop.ColorButton ? prop.ColorButton : 'yellow'};
+border : 5px solid black;
+margin: 5px;
 cursor : pointer;   
 
 &:hover{
